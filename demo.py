@@ -7,8 +7,8 @@ from PIL import Image
 import models.crnn as crnn
 from time import time
 
+temp = "dailinhan"
 
-a = 'dafa'
 model_path = './data/crnn_Rec_done_98_32.pth'
 img_path = './data/rear_1139_aphu.jpg'
 alphabet = '0123456789abcdefghijklmnopqrstuvwxyz'
